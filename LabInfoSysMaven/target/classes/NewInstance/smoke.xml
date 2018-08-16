@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NewInstance-Smoke-Testing" thread-count="1" verbose="1" preserve-order="true" parallel="false">
+ <test name="NewInstance_Smoke_Part1" >
+    <classes>
+      <class name="Smoke.NewInstance_Smoke_Part1"/>
+    </classes>
+ </test>
+  <test name="NewInstance_Canceling2of4ServicesWithBothBillAndItemLevelDiscountInAmountAndPatientFullyPaidTheBill" >
+    <classes>
+      <class name="Smoke.NewInstance_Canceling2of4ServicesWithBothBillAndItemLevelDiscountInAmountAndPatientFullyPaidTheBill"/>
+    </classes>
+ </test>
+  <test name="NewInstance_Canceling2of4ServicesWithBothBillAndItemLevelDiscountInPercentageAndPatientNotPaidTheBill" >
+    <classes>
+      <class name="Smoke.NewInstance_Canceling2of4ServicesWithBothBillAndItemLevelDiscountInPercentageAndPatientNotPaidTheBill"/>
+    </classes>
+ </test>
+</suite>

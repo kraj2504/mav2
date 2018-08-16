@@ -1,0 +1,213 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LIS Regression suite 1" thread-count="1" verbose="1" preserve-order="true" parallel="false">
+ <test name="S1_SelfFullBillPaidWithPackage" >
+    <classes>
+      <class name="testCases.S1_SelfFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S2_SelfPartialBillPaidWithPackage" >
+    <classes>
+      <class name="testCases.S2_SelfPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S3_SelfFullDueWithPackage" >
+    <classes>
+      <class name="testCases.S3_SelfFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S4_SelfFullBillPaidWithGroup" >
+    <classes>
+      <class name="testCases.S4_SelfFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S5_SelfPartialBillPaidWithGroup" >
+    <classes>
+      <class name="testCases.S5_SelfPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S6_SelfFullDueWithGroup" >
+    <classes>
+      <class name="testCases.S6_SelfFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S7_SelfFullBillPaidWithAnalyte" >
+    <classes>
+      <class name="testCases.S7_SelfFullBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+ <test name="S8_DoctorFullBillPaidWithPackage" >
+    <classes>
+      <class name="testCases.S8_DoctorFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S9_DoctorPartialBillPaidWithPackage" >
+    <classes>
+      <class name="testCases.S9_DoctorPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S10_DoctorFullDueWithPackage" >
+    <classes>
+      <class name="testCases.S10_DoctorFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S11_DoctorFullBillPaidWithGroup" >
+    <classes>
+      <class name="testCases.S11_DoctorFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S12_DoctorPartialBillPaidWithGroup" >
+    <classes>
+      <class name="testCases.S12_DoctorPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S13_DoctorFullDueWithGroup" >
+    <classes>
+      <class name="testCases.S13_DoctorFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S14_DoctorPartialBillPaidWithAnalyte" >
+    <classes>
+      <class name="testCases.S14_DoctorPartialBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+ <test name="S15_ClientFullBillPaidWithPackage" >
+    <classes>
+      <class name="testCases.S15_ClientFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S16_ClientPartialBillPaidWithPackage" >
+    <classes>
+      <class name="testCases.S16_ClientPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S17_ClientFullDueWithPackage" >
+    <classes>
+      <class name="testCases.S17_ClientFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S18_ClientFullBillPaidWithGroup" >
+    <classes>
+      <class name="testCases.S18_ClientFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S19_ClientPartialBillPaidWithGroup" >
+    <classes>
+      <class name="testCases.S19_ClientPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S20_ClientFullDueWithGroup" >
+    <classes>
+      <class name="testCases.S20_ClientFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S21_ClientPartialBillPaidWithAnalyte" >
+    <classes>
+      <class name="testCases.S21_ClientPartialBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+ <test name="S22_ExistingSelfFullBillPaidWithPackage" >
+    <classes>
+      <class name="testCases.S22_ExistingSelfFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S23_ExistingSelfPartialBillPaidWithPackage" >
+    <classes>
+      <class name="testCases.S23_ExistingSelfPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S24_ExistingSelfFullDueWithPackage" >
+    <classes>
+      <class name="testCases.S24_ExistingSelfFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S25_ExistingSelfFullBillPaidWithGroup" >
+    <classes>
+      <class name="testCases.S25_ExistingSelfFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S26_ExistingSelfPartialBillPaidWithGroup" >
+    <classes>
+      <class name="testCases.S26_ExistingSelfPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S27_ExistingSelfFullDueWithGroup" >
+    <classes>
+      <class name="testCases.S27_ExistingSelfFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S28_ExistingSelfFullBillPaidWithAnalyte" >
+    <classes>
+      <class name="testCases.S28_ExistingSelfFullBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+ <test name="S29_ExistingDoctorFullBillPaidWithPackage" >
+    <classes>
+      <class name="testCases.S29_ExistingDoctorFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S30_ExistingDoctorPartialBillPaidWithPackage" >
+    <classes>
+      <class name="testCases.S30_ExistingDoctorPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S31_ExistingDoctorFullDueWithPackage" >
+    <classes>
+      <class name="testCases.S31_ExistingDoctorFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S32_ExistingDoctorFullBillPaidWithGroup" >
+    <classes>
+      <class name="testCases.S32_ExistingDoctorFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S33_ExistingDoctorPartialBillPaidWithGroup" >
+    <classes>
+      <class name="testCases.S33_ExistingDoctorPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S34_ExistingDoctorFullDueWithGroup" >
+    <classes>
+      <class name="testCases.S34_ExistingDoctorFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S35_ExistingDoctorPartialBillPaidWithAnalyte" >
+    <classes>
+      <class name="testCases.S35_ExistingDoctorPartialBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+ <test name="S36_ExistingClientFullBillPaidWithPackage" >
+    <classes>
+      <class name="testCases.S36_ExistingClientFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S37_ExistingClientPartialBillPaidWithPackage" >
+    <classes>
+      <class name="testCases.S37_ExistingClientPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S38_ExistingClientFullDueWithPackage" >
+    <classes>
+      <class name="testCases.S38_ExistingClientFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S39_ExistingClientFullBillPaidWithGroup" >
+    <classes>
+      <class name="testCases.S39_ExistingClientFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S40_ExistingClientPartialBillPaidWithGroup" >
+    <classes>
+      <class name="testCases.S40_ExistingClientPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S41_ExistingClientFullDueWithGroup" >
+    <classes>
+      <class name="testCases.S41_ExistingClientFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S42_ExistingClientPartialBillPaidWithAnalyte" >
+    <classes>
+      <class name="testCases.S42_ExistingClientPartialBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+</suite>

@@ -1,0 +1,68 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Trident-LIS-Regression-suite-RefundCancel" thread-count="1" verbose="1" preserve-order="true" parallel="false">
+ <test name="S43_Canceling2of4ServicesWithBothBillAndItemLevelDiscountInPercentageAndPatientFullyPaidTheBill" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S43_Canceling2of4ServicesWithBothBillAndItemLevelDiscountInPercentageAndPatientFullyPaidTheBill"/>
+    </classes>
+ </test>
+ <test name="S44_Canceling2of4ServicesWithBothBillAndItemLevelDiscountInAmountAndPatientNotPaidTheBill" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S44_Canceling2of4ServicesWithBothBillAndItemLevelDiscountInAmountAndPatientNotPaidTheBill"/>
+    </classes>
+ </test>
+ <test name="S45_Canceling2of4ServicesWithBothBillAndItemLevelDiscountInPercentageAndPatientNotPaidTheBill" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S45_Canceling2of4ServicesWithBothBillAndItemLevelDiscountInPercentageAndPatientNotPaidTheBill"/>
+    </classes>
+ </test>
+ <test name="S46_Canceling2of4ServicesWithBothBillAndItemLevelDiscountInAmountAndPatientFullyPaidTheBill" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S46_Canceling2of4ServicesWithBothBillAndItemLevelDiscountInAmountAndPatientFullyPaidTheBill"/>
+    </classes>
+ </test>
+ <test name="S47_Canceling2of4ServicesWithBillLevelDiscountInPercentageAndPatientFullyPaidTheBill" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S47_Canceling2of4ServicesWithBillLevelDiscountInPercentageAndPatientFullyPaidTheBill"/>
+    </classes>
+ </test>
+ <test name="S48_Canceling2of4ServicesWithBillLevelDiscountInAmountAndPatientNotPaidTheBill" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S48_Canceling2of4ServicesWithBillLevelDiscountInAmountAndPatientNotPaidTheBill"/>
+    </classes>
+ </test>
+ <test name="S49_Canceling2of4ServicesWithBillLevelDiscountInPercentageAndPatientNotPaidTheBill" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S49_Canceling2of4ServicesWithBillLevelDiscountInPercentageAndPatientNotPaidTheBill"/>
+    </classes>
+ </test>
+ <test name="S50_Canceling2of4ServicesWithBillLevelDiscountInAmountAndPatientFullyPaidTheBill" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S50_Canceling2of4ServicesWithBillLevelDiscountInAmountAndPatientFullyPaidTheBill"/>
+    </classes>
+ </test>
+ <test name="S51_Canceling2of4ServicesWithItemLevelDiscountInPercentageAndPatientFullyPaidTheBill" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S51_Canceling2of4ServicesWithItemLevelDiscountInPercentageAndPatientFullyPaidTheBill"/>
+    </classes>
+ </test>
+ <test name="S52_Canceling2of4ServicesWithItemLevelDiscountInAmountAndPatientNotPaidTheBill" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S52_Canceling2of4ServicesWithItemLevelDiscountInAmountAndPatientNotPaidTheBill"/>
+    </classes>
+ </test>
+ <test name="S53_Canceling2of4ServicesWithItemLevelDiscountInPercentageAndPatientNotPaidTheBill" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S53_Canceling2of4ServicesWithItemLevelDiscountInPercentageAndPatientNotPaidTheBill"/>
+    </classes>
+ </test>
+ <test name="S54_Canceling2of4ServicesWithItemLevelDiscountInAmountAndPatientFullyPaidTheBill" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S54_Canceling2of4ServicesWithItemLevelDiscountInAmountAndPatientFullyPaidTheBill"/>
+    </classes>
+ </test>
+ <test name="S55_Canceling2of4ServicesWithNoDiscountAndPatientFullyPaidTheBill" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S55_Canceling2of4ServicesWithNoDiscountAndPatientFullyPaidTheBill"/>
+    </classes>
+ </test>
+</suite>

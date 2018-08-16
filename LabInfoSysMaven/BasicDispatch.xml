@@ -1,0 +1,213 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LIS-Regression-suite-BasicDispatch" thread-count="1" verbose="1" preserve-order="true" parallel="false">
+ <test name="S1_SelfFullBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S1_SelfFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S2_SelfPartialBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S2_SelfPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S3_SelfFullDueWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S3_SelfFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S4_SelfFullBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S4_SelfFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S5_SelfPartialBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S5_SelfPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S6_SelfFullDueWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S6_SelfFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S7_SelfFullBillPaidWithAnalyte" >
+    <classes>
+      <class name="tc_BasicDispatch.S7_SelfFullBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+ <test name="S8_DoctorFullBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S8_DoctorFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S9_DoctorPartialBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S9_DoctorPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S10_DoctorFullDueWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S10_DoctorFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S11_DoctorFullBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S11_DoctorFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S12_DoctorPartialBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S12_DoctorPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S13_DoctorFullDueWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S13_DoctorFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S14_DoctorPartialBillPaidWithAnalyte" >
+    <classes>
+      <class name="tc_BasicDispatch.S14_DoctorPartialBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+ <test name="S15_ClientFullBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S15_ClientFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S16_ClientPartialBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S16_ClientPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S17_ClientFullDueWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S17_ClientFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S18_ClientFullBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S18_ClientFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S19_ClientPartialBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S19_ClientPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S20_ClientFullDueWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S20_ClientFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S21_ClientPartialBillPaidWithAnalyte" >
+    <classes>
+      <class name="tc_BasicDispatch.S21_ClientPartialBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+ <test name="S22_ExistingSelfFullBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S22_ExistingSelfFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S23_ExistingSelfPartialBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S23_ExistingSelfPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S24_ExistingSelfFullDueWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S24_ExistingSelfFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S25_ExistingSelfFullBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S25_ExistingSelfFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S26_ExistingSelfPartialBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S26_ExistingSelfPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S27_ExistingSelfFullDueWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S27_ExistingSelfFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S28_ExistingSelfFullBillPaidWithAnalyte" >
+    <classes>
+      <class name="tc_BasicDispatch.S28_ExistingSelfFullBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+ <test name="S29_ExistingDoctorFullBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S29_ExistingDoctorFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S30_ExistingDoctorPartialBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S30_ExistingDoctorPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S31_ExistingDoctorFullDueWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S31_ExistingDoctorFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S32_ExistingDoctorFullBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S32_ExistingDoctorFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S33_ExistingDoctorPartialBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S33_ExistingDoctorPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S34_ExistingDoctorFullDueWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S34_ExistingDoctorFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S35_ExistingDoctorPartialBillPaidWithAnalyte" >
+    <classes>
+      <class name="tc_BasicDispatch.S35_ExistingDoctorPartialBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+ <test name="S36_ExistingClientFullBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S36_ExistingClientFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S37_ExistingClientPartialBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S37_ExistingClientPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S38_ExistingClientFullDueWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch.S38_ExistingClientFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S39_ExistingClientFullBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S39_ExistingClientFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S40_ExistingClientPartialBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S40_ExistingClientPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S41_ExistingClientFullDueWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch.S41_ExistingClientFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S42_ExistingClientPartialBillPaidWithAnalyte" >
+    <classes>
+      <class name="tc_BasicDispatch.S42_ExistingClientPartialBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+</suite>

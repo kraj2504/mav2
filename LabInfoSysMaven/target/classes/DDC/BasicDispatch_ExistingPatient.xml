@@ -1,0 +1,108 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DDC-LIS-Regression-suite-BasicDispatch-Part-II" thread-count="1" verbose="1" preserve-order="true" parallel="false">
+ <test name="S22_ExistingSelfFullBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S22_ExistingSelfFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S23_ExistingSelfPartialBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S23_ExistingSelfPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S24_ExistingSelfFullDueWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S24_ExistingSelfFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S25_ExistingSelfFullBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S25_ExistingSelfFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S26_ExistingSelfPartialBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S26_ExistingSelfPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S27_ExistingSelfFullDueWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S27_ExistingSelfFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S28_ExistingSelfFullBillPaidWithAnalyte" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S28_ExistingSelfFullBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+ <test name="S29_ExistingDoctorFullBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S29_ExistingDoctorFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S30_ExistingDoctorPartialBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S30_ExistingDoctorPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S31_ExistingDoctorFullDueWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S31_ExistingDoctorFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S32_ExistingDoctorFullBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S32_ExistingDoctorFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S33_ExistingDoctorPartialBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S33_ExistingDoctorPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S34_ExistingDoctorFullDueWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S34_ExistingDoctorFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S35_ExistingDoctorPartialBillPaidWithAnalyte" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S35_ExistingDoctorPartialBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+ <test name="S36_ExistingCreditClientFullBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S36_ExistingCreditClientFullBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S37_ExistingCreditClientPartialBillPaidWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S37_ExistingCreditClientPartialBillPaidWithPackage"/>
+    </classes>
+ </test>
+ <test name="S38_ExistingCreditClientFullDueWithPackage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S38_ExistingCreditClientFullDueWithPackage"/>
+    </classes>
+ </test>
+ <test name="S39_ExistingCreditClientFullBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S39_ExistingCreditClientFullBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S40_ExistingCreditClientPartialBillPaidWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S40_ExistingCreditClientPartialBillPaidWithGroup"/>
+    </classes>
+ </test>
+ <test name="S41_ExistingCreditClientFullDueWithGroup" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S41_ExistingCreditClientFullDueWithGroup"/>
+    </classes>
+ </test>
+ <test name="S42_ExistingCreditClientPartialBillPaidWithAnalyte" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S42_ExistingCreditClientPartialBillPaidWithAnalyte"/>
+    </classes>
+ </test>
+</suite>

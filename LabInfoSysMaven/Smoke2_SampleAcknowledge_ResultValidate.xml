@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LIS-Smoke-suite2" thread-count="1" verbose="1" preserve-order="true" parallel="false">
+ <test name="Smoke2_SampleAcknowledge_ResultValidate" >
+    <classes>
+      <class name="testCases.Smoke2_SampleAcknowledge_ResultValidate"/>
+    </classes>
+ </test>
+</suite>

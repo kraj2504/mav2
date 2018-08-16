@@ -1,0 +1,198 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Trident-Smoke-Testing" thread-count="1" verbose="1" preserve-order="true" parallel="false">
+ <test name="S62_DoctorPayoffNotAllowed_Value0_Range0" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S62_DoctorPayoffNotAllowed_Value0_Range0"/>
+    </classes>
+ </test>
+  <test name="S63_DoctorPayoffAllowed_Value20_Range0" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S63_DoctorPayoffAllowed_Value20_Range0"/>
+    </classes>
+ </test>
+  <test name="S64_DoctorPayoffNotAllowed_Value25_Range20" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S64_DoctorPayoffNotAllowed_Value25_Range20"/>
+    </classes>
+ </test>
+   <test name="S65_DoctorPayoffAllowed_Value25_Range30" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S65_DoctorPayoffAllowed_Value25_Range30"/>
+    </classes>
+ </test>
+   <test name="S66_DoctorPayoffAllowed_Value0_Range0_SubValue20_SubRange0" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S66_DoctorPayoffAllowed_Value0_Range0_SubValue20_SubRange0"/>
+    </classes>
+ </test>
+   <test name="S67_DoctorPayoffNotAllowed_Value0_Range0_SubValue20_SubRange15" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S67_DoctorPayoffNotAllowed_Value0_Range0_SubValue20_SubRange15"/>
+    </classes>
+ </test>
+   <test name="S68_DoctorPayoffAllowed_Value0_Range0_SubValue15_SubRange20" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S68_DoctorPayoffAllowed_Value0_Range0_SubValue15_SubRange20"/>
+    </classes>
+ </test>
+   <test name="S69_DoctorPayoffAllowed_Value0_Range20_SubValue20_SubRange20" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S69_DoctorPayoffAllowed_Value0_Range20_SubValue20_SubRange20"/>
+    </classes>
+ </test>
+   <test name="S70_DoctorPayoffNotAllowed_Value0_Range20_SubValue0_SubRange25" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S70_DoctorPayoffNotAllowed_Value0_Range20_SubValue0_SubRange25"/>
+    </classes>
+ </test>
+   <test name="S71_DoctorPayoffNotAllowed_Value0_Range15_SubValue20_SubRange0" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S71_DoctorPayoffNotAllowed_Value0_Range15_SubValue20_SubRange0"/>
+    </classes>
+ </test>
+   <test name="S72_DoctorPayoffAllowed_Value0_Range15_InvestPercentPay_value10" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S72_DoctorPayoffAllowed_Value0_Range15_InvestPercentPay_value10"/>
+    </classes>
+ </test>
+   <test name="S73_DoctorPayoffAllowed_Value0_Range15_InvestPercentPay_value15" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S73_DoctorPayoffAllowed_Value0_Range15_InvestPercentPay_value15"/>
+    </classes>
+ </test>
+   <test name="S74_DoctorPayoffNotAllowed_Value0_Range15_InvestPercentPay_value20" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S74_DoctorPayoffNotAllowed_Value0_Range15_InvestPercentPay_value20"/>
+    </classes>
+ </test>
+   <test name="S75_DoctorPayoffAllowed_Value0_Range0_SubValue0_SubRange0_InvestPercentpay_value10" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S75_DoctorPayoffAllowed_Value0_Range0_SubValue0_SubRange0_InvestPercentpay_value10"/>
+    </classes>
+ </test>
+   <test name="S76_DoctorPayoffNotAllowed_Value0_Range0_SubValue0_SubRange15_InvestPercentpay_Value20" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S76_DoctorPayoffNotAllowed_Value0_Range0_SubValue0_SubRange15_InvestPercentpay_Value20"/>
+    </classes>
+ </test>
+   <test name="S77_DoctorPayoffNotAllowed_Value0_Range15_SubValue0_SubRange20" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S77_DoctorPayoffNotAllowed_Value0_Range15_SubValue0_SubRange20"/>
+    </classes>
+ </test>
+   <test name="S78_DoctorPayoffAllowed_Value0_Range0_SubValue0_SubRange0_InvestFlatpay_value10" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S78_DoctorPayoffAllowed_Value0_Range0_SubValue0_SubRange0_InvestFlatpay_value10"/>
+    </classes>
+ </test>
+   <test name="S79_DoctorPayoffNotAllowed_Value0_Range0_SubValue0_SubRange15_InvestFlatpay_Value20" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S79_DoctorPayoffNotAllowed_Value0_Range0_SubValue0_SubRange15_InvestFlatpay_Value20"/>
+    </classes>
+ </test>
+   <test name="S80_DoctorPayoffNotAllowed_Value0_Range15_SubValue0_SubRange0_InvestFlatpay_Value25" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S80_DoctorPayoffNotAllowed_Value0_Range15_SubValue0_SubRange0_InvestFlatpay_Value25"/>
+    </classes>
+ </test>
+   <test name="S81_DoctorPayoffNotAllowed_InvestFlatpay_ValueGreaterThanGeneralPrice" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S81_DoctorPayoffNotAllowed_InvestFlatpay_ValueGreaterThanGeneralPrice"/>
+    </classes>
+ </test>
+   <test name="S87_AssignPayOffForInvestigationAssignPayOffForDeptAssignPayOffForSubDept" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S87_AssignPayOffForInvestigationAssignPayOffForDeptAssignPayOffForSubDept"/>
+    </classes>
+ </test>
+   <test name="S91_CheckDoctorPayOffWhenReferralTypeSelectedAsSelf" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S91_CheckDoctorPayOffWhenReferralTypeSelectedAsSelf"/>
+    </classes>
+ </test>
+   <test name="S92_CheckDoctorPayOffWhenReferralTypeSelectedAsClientButNoDocName" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S92_CheckDoctorPayOffWhenReferralTypeSelectedAsClientButNoDocName"/>
+    </classes>
+ </test>
+   <test name="S93_CheckDoctorPayOffWhenReferralTypeSelectedAsClientEnterDocName" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S93_CheckDoctorPayOffWhenReferralTypeSelectedAsClientEnterDocName"/>
+    </classes>
+ </test>
+   <test name="S94_CheckDoctorPayOffWhenDiscountTypeIsDoctorApprovedByDoctorAndDiscountInPercentage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S94_CheckDoctorPayOffWhenDiscountTypeIsDoctorApprovedByDoctorAndDiscountInPercentage"/>
+    </classes>
+ </test>
+   <test name="S95_CheckDoctorPayOffWhenDiscountTypeDoctorAndApprovedByOtherUserAndDiscountInPercentage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S95_CheckDoctorPayOffWhenDiscountTypeDoctorAndApprovedByOtherUserAndDiscountInPercentage"/>
+    </classes>
+ </test>
+   <test name="S96_CheckDoctorPayOffWhenDiscountTypeIsOthersApprovedByDoctorAndDiscountInPercentage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S96_CheckDoctorPayOffWhenDiscountTypeIsOthersApprovedByDoctorAndDiscountInPercentage"/>
+    </classes>
+ </test>
+   <test name="S97_CheckDoctorPayOffWhenDiscountTypeOthersAndApprovedByOtherUserAndDiscountInPercentage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S97_CheckDoctorPayOffWhenDiscountTypeOthersAndApprovedByOtherUserAndDiscountInPercentage"/>
+    </classes>
+ </test>
+   <test name="S98_DoctorPayOffCalculatedWhenDiscountTypePatientAndApprovedByDoctor" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S98_DoctorPayOffCalculatedWhenDiscountTypePatientAndApprovedByDoctor"/>
+    </classes>
+ </test>
+   <test name="S99_CheckDoctorPayOffCalculatedWhenDiscountTypePatientAndApprovedByOtherUser" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S99_CheckDoctorPayOffCalculatedWhenDiscountTypePatientAndApprovedByOtherUser"/>
+    </classes>
+ </test>
+   <test name="S100_CheckDoctorPayOffCalculatedWhenDiscountTypeStaffAndApprovedByDoctor" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S100_CheckDoctorPayOffCalculatedWhenDiscountTypeStaffAndApprovedByDoctor"/>
+    </classes>
+ </test>
+   <test name="S101_CheckDoctorPayOffCalculatedWhenDiscountTypeStaffAndApprovedByOtherUser" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S101_CheckDoctorPayOffCalculatedWhenDiscountTypeStaffAndApprovedByOtherUser"/>
+    </classes>
+ </test>
+   <test name="S102_CheckDoctorPayOffWhenDiscountTypeDoctorApprovedByDoctorAndDiscountInAmount" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S102_CheckDoctorPayOffWhenDiscountTypeDoctorApprovedByDoctorAndDiscountInAmount"/>
+    </classes>
+ </test>
+   <test name="S103_CheckDoctorPayOffWhenDiscountTypeDoctorApprovedByDoctorAndItemLevelDiscountInPercentage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S103_CheckDoctorPayOffWhenDiscountTypeDoctorApprovedByDoctorAndItemLevelDiscountInPercentage"/>
+    </classes>
+ </test>
+   <test name="S104_CheckDoctorPayOffWhenDiscountTypeDoctorApprovedByDoctorAndItemLevelDiscountInAmount" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S104_CheckDoctorPayOffWhenDiscountTypeDoctorApprovedByDoctorAndItemLevelDiscountInAmount"/>
+    </classes>
+ </test>
+   <test name="S105_CheckDoctorPayOffWhenDiscountTypeDoctorApprovedByDoctorAndItemLevelDiscount100Percentage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S105_CheckDoctorPayOffWhenDiscountTypeDoctorApprovedByDoctorAndItemLevelDiscount100Percentage"/>
+    </classes>
+ </test>
+   <test name="S106_CheckDoctorPayOffWhenDiscountTypeIsDoctorApprovedByDoctorAndDiscountInPercentage" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S106_CheckDoctorPayOffWhenDiscountTypeIsDoctorApprovedByDoctorAndDiscountInPercentage"/>
+    </classes>
+ </test>
+   <test name="S107_CheckDoctorPayOffFor4ServicesWithItemLevelDiscountForAllServices" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S107_CheckDoctorPayOffFor4ServicesWithItemLevelDiscountForAllServices"/>
+    </classes>
+ </test>
+   <test name="S108_CheckPayOffForTheInvestigationIfDeptValue0Range20InvestFlatValue" >
+    <classes>
+      <class name="tc_BasicDispatch_SelectPrinter_SampleAcknowledgementByTechnician.S108_CheckPayOffForTheInvestigationIfDeptValue0Range20InvestFlatValue"/>
+    </classes>
+ </test>
+</suite>

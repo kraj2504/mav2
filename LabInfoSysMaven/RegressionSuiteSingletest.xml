@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoadSuite">
+  <test name="Test">
+    <classes>
+    	<class name="testCases2.S1_SelfFullBillPaidWithPackage"/>
+    	<class name="testCases2.S2_SelfPartialBillPaidWithPackage"/>
+    	<class name="testCases2.S3_SelfFullDueWithPackage"/>
+    	<class name="testCases2.S4_SelfFullBillPaidWithGroup"/>
+      	<class name="testCases2.S5_SelfPartialBillPaidWithGroup"/>
+      	<class name="testCases2.S6_SelfFullDueWithGroup"/>
+      	<class name="testCases2.S7_SelfFullBillPaidWithAnalyte"/>
+      	<class name="testCases2.S8_DoctorFullBillPaidWithPackage"/>
+      	<class name="testCases2.S9_DoctorPartialBillPaidWithPackage"/>
+	    <class name="testCases2.S10_DoctorFullDueWithPackage"/>
+    	<class name="testCases2.S11_DoctorFullBillPaidWithGroup"/>
+      	<class name="testCases2.S12_DoctorPartialBillPaidWithGroup"/>
+        <class name="testCases2.S13_DoctorFullDueWithGroup"/>
+        <class name="testCases2.S14_DoctorPartialBillPaidWithAnalyte"/>
+      	<class name="testCases2.S15_ClientFullBillPaidWithPackage"/>
+      	<class name="testCases2.S16_ClientPartialBillPaidWithPackage"/>
+      	<class name="testCases2.S17_ClientFullDueWithPackage"/>
+      	<class name="testCases2.S18_ClientFullBillPaidWithGroup"/>
+      	<class name="testCases2.S19_ClientPartialBillPaidWithGroup"/>
+      	<class name="testCases2.S20_ClientFullDueWithGroup"/>
+      	<class name="testCases2.S21_ClientPartialBillPaidWithAnalyte"/>
+      	<class name="testCases2.S22_ExistingSelfFullBillPaidWithPackage"/>
+      	<class name="testCases2.S23_ExistingSelfPartialBillPaidWithPackage"/>
+      	<class name="testCases2.S24_ExistingSelfFullDueWithPackage"/>
+      	<class name="testCases2.S25_ExistingSelfFullBillPaidWithGroup"/>
+    	<class name="testCases2.S26_ExistingSelfPartialBillPaidWithGroup"/>
+    	<class name="testCases2.S27_ExistingSelfFullDueWithGroup"/>
+    	<class name="testCases2.S28_ExistingSelfFullBillPaidWithAnalyte"/>
+    	<class name="testCases2.S29_ExistingDoctorFullBillPaidWithPackage"/>
+    	<class name="testCases2.S30_ExistingDoctorPartialBillPaidWithPackage"/>
+    	<class name="testCases2.S31_ExistingDoctorFullDueWithPackage"/>
+    	<class name="testCases2.S32_ExistingDoctorFullBillPaidWithGroup"/>
+    	<class name="testCases2.S33_ExistingDoctorPartialBillPaidWithGroup"/>
+    	<class name="testCases2.S34_ExistingDoctorFullDueWithGroup"/>
+    	<class name="testCases2.S35_ExistingDoctorPartialBillPaidWithAnalyte"/>
+     	<class name="testCases2.S36_ExistingClientFullBillPaidWithPackage"/>
+     	<class name="testCases2.S37_ExistingClientPartialBillPaidWithPackage"/>
+     	<class name="testCases2.S38_ExistingClientFullDueWithPackage"/>
+     	<class name="testCases2.S39_ExistingClientFullBillPaidWithGroup"/>
+     	<class name="testCases2.S40_ExistingClientPartialBillPaidWithGroup"/>
+     	<class name="testCases2.S41_ExistingClientFullDueWithGroup"/>
+    	<class name="testCases2.S42_ExistingClientPartialBillPaidWithAnalyte"/>  
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- LoadSuite -->

@@ -1,0 +1,128 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LIS Regression suite 2" thread-count="1" verbose="1" preserve-order="true" parallel="false">
+ <test name="S001" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S001"/>
+    </classes>
+ </test>
+ <test name="S002" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S002"/>
+    </classes>
+ </test>
+ <test name="S003" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S003"/>
+    </classes>
+ </test> 
+ <test name="S004" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S004"/>
+    </classes>
+ </test>
+ <test name="S005" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S005"/>
+    </classes>
+ </test>
+ <test name="S006" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S006"/>
+    </classes>
+ </test>
+ <test name="S007" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S007"/>
+    </classes>
+ </test>
+ <test name="S008" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S008"/>
+    </classes>
+ </test>
+ <test name="S009" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S009"/>
+    </classes>
+ </test>
+ <test name="S010" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S010"/>
+    </classes>
+ </test>
+ <test name="S011" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S011"/>
+    </classes>
+ </test>
+ <test name="S012" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S012"/>
+    </classes>
+ </test>
+ <test name="S013" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S013"/>
+    </classes>
+ </test>
+ <test name="S015" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S015"/>
+    </classes>
+ </test>
+ <test name="S017" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S017"/>
+    </classes>
+ </test>
+ <test name="S019" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S019"/>
+    </classes>
+ </test>
+ <test name="S020" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S020"/>
+    </classes>
+ </test>
+ <test name="S021" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S021"/>
+    </classes>
+ </test>
+ <test name="S023" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S023"/>
+    </classes>
+ </test>
+ <test name="S024" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S024"/>
+    </classes>
+ </test>
+ <test name="S026" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S026"/>
+    </classes>
+ </test>
+ <test name="S027" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S027"/>
+    </classes>
+ </test>
+ <test name="S028" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S028"/>
+    </classes>
+ </test>
+  <test name="S029" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S029"/>
+    </classes>
+ </test>
+ <test name="S030" >
+    <classes>
+      <class name="tc_BasicDispatch_SampleOutsourceAndAcknowledge.S030"/>
+    </classes>
+ </test>
+</suite>

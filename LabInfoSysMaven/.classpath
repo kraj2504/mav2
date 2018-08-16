@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="Clients">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/client-combined-3.4.0-nodeps.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/cssparser-0.9.22.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/guava-21.0.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/guava-base-r03.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/guava-collections-r03.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/htmlunit-2.26.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/htmlunit-core-js-2.26.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/htmlunit-driver-2.26.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/jcommander.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/jetty-io-9.4.1.v20170120.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/jetty-util-9.4.1.v20170120.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/neko-htmlunit-2.25.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/phantomjsdriver-1.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/poi-examples-3.16.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/poi-excelant-3.16.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/poi-ooxml-3.16.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/poi-scratchpad-3.16.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/snakeyaml.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/testng.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/testng-remote.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/testng-sources.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/websocket-api-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/websocket-client-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/websocket-common-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-workspace/LabInfoSysTestNG/lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
